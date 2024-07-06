@@ -11,7 +11,7 @@
 // let myNewWindow = window.open("https://google.com", "", "width=500, height=500");
 
 window.scroll({
-    left: 500,
-    top:200,
+    left: 1500,
+    top:1200,
     behavior: "smooth",
-})
+});
