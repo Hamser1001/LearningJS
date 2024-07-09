@@ -7,8 +7,8 @@
 
 let myFriends = ["Ahmed", "Sayed", "Ali", "Maysa"];
 let [a, b, c, d] = myFriends;
+
 console.log(a);
 console.log(b);
-
 console.log(c);
 console.log(d);
