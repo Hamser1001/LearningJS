@@ -5,10 +5,28 @@
   - Destructuring Array
 */
 
-let myFriends = ["Ahmed", "Sayed", "Ali", "Maysa"];
-let [a, b, c, d] = myFriends;
+// let a = 1;
+// let b = 2;
+// let c = 3;
+// let d = 4;
+
+let myFriends = ["Ahmed", "Sayed", "Ali", "Maysa", ["Shady", "Aamr", ["Mohamed", "Jamal"]]];
+// console.log(myFriends[4][2][1]);
+let [, , , , [a, , [, b]]] = myFriends;
+console.log(a); // Shady
+console.log(b); // Jamal
+[a, b, c, d, e = "Hamza"] = myFriends;
 
 console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
+console.log(e);
+
+// console.log(myFriends[4]);
+
+let [x, y, , z] = myFriends;
+
+console.log(x);
+console.log(y);
+console.log(z);
