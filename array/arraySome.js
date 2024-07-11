@@ -13,7 +13,7 @@
 */
 
 
-let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9,10];
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let myNumber = 5;
 
 // let check = nums.some(function (e) {
