@@ -4,17 +4,26 @@
   - IP
   - Phone
   - URL
+   -----------------------
+  Syntax
+  /pattern/modifier(s);
+  new RegExp("pattern", "modifier(s)")
+
+  Modifiers => Flags
+  i => case-insensitive
+  g => global
+  m => Multilines
+
+  Search Methods
+  - match(Pattern)
+
+  Match
+  -- Matches A String Against a Regular Expression Pattern
+  -- Returns An Array With The Matches
+  -- Returns null If No Match Is Found.
 */
 
-let str1 = "10 20 100 1000 5000";
-let str2 = "Os1 Os12 Os123 Os123Os Os12312Os123";
+let myString = "Hello Elzero Web School I Love elzero";
 
-let invalidEmail = "Hamza@@@gmail...com";
-let validEmail = "o@nn.sa";
-let ip = "192.168.2.1"; // Ipv4
-
-let url = "google.com";
-url = "google.com/";
-url = "www.google.com";
-url = "www.google.com/";
-url = "http://www.google.com";
+let regex = /elzero/ig;
+console.log(myString.match(regex));
