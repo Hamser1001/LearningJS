@@ -16,7 +16,6 @@ let nums = "0110 10 150 05120 0560 350 00"; // 0 Numbers Or No 0
 let numsRegex = /0\d*0/ig;
 console.log(nums.match(numsRegex));
 
-
 let urls = "https://google.com http://www.website.net web.com"; // http + https
 let urlsRegex = /(https?:\/\/)?(www.)?\w+.\w+/ig;
 console.log(urls.match(urlsRegex));
