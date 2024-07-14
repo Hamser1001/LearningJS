@@ -17,7 +17,7 @@ class User {
     };
     getSalary() {
         return parseInt(this.#e);
-    }
+    };
 };
 
 let userOne = new User(100, "Hamza", "5000 MAD");
