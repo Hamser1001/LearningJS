@@ -16,11 +16,11 @@ function* generateNumbers() {
 let generator = generateNumbers();
 console.log(typeof generator);
 console.log(generator);
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
 
 for (let value of generateNumbers()) {
     console.log(value);
