@@ -13,7 +13,7 @@ function saySomething() {
     return `Something`;
 };
 
-export {a as myNumber, arr, saySomething};
+export { a as myNumber, arr, saySomething };
 export default function sayHello() {
     return `Hello`;
 };
