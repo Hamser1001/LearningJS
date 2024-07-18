@@ -36,7 +36,7 @@ const myPromise = new Promise((resolveFunction, rejectFunction) => {
     let connect = true;
     if (connect) {
         resolveFunction("Connection Established");
-    }else {
+    } else {
         rejectFunction(Error("Connection Failed"));
     }
 });
